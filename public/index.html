@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width initial-scale=1,user-scalable=no">
+    <link rel="icon" href="<%= BASE_URL %>favicon.ico">
+    <link rel="stylesheet" href="./reset.css">
+    <link rel="stylesheet" href="//at.alicdn.com/t/font_1604260_vbzaw1lkgv.css">
+    <title><%= htmlWebpackPlugin.options.title %></title>
+    <style>
+      body{
+        width: 100%;
+        height: 100%;
+        background:#EEEEEE
+      }
+     #app{
+       height: 100%;
+     }
+      
+    </style>
+  </head>
+  <body>
+    <div id="app"></div>
+    <script>
+    //  function refreshRem(){
+    //     //获取屏幕宽度
+    //   let clientWidth = document.documentElement.clientWidth
+    //   //将屏幕分成十等分
+    //   let fontSizeVlue = clientWidth / 10
+    //   //设定单位rem值的大小
+    //   let rem = fontSizeVlue
+    //   //设定body标签字体的大小
+    //   document.body.style.fontSize = '24px'
+    //   //设定html上fontsize的大小
+    //   document.documentElement.style.fontSize = fontSizeVlue + 'px'
+    //  }
+    //  window.addEventListener('pageshow',function(){
+    //   refreshRem()
+    //  })
+    //  let timer;
+    //  window.addEventListener('resize',function(){
+    //    if(timer){
+    //      clearTimeout(timer)
+    //    }
+    //    timer = setTimeout(()=>{
+    //      refreshRem()
+    //    },300)
+    //  })
+    </script>
+  </body>
+</html>
